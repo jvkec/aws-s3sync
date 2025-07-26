@@ -13,15 +13,31 @@ A simple and powerful CLI tool to synchronize local directories with AWS S3 buck
 - **Progress tracking**: Visual feedback for file operations
 - **Secure by default**: Encryption and versioning enabled on created buckets
 
-## Installation
+### Installation
 
 ### From Source
 
 ```bash
+# Clone the repository
 git clone https://github.com/jvkec/aws-s3-simple-sync.git
 cd aws-s3-simple-sync
+
+# Build the binary
 go build -o s3sync ./cmd/s3sync
-sudo mv s3sync /usr/local/bin/  # optional: install globally
+
+# Install globally (choose one method):
+
+# Method 1: Move to /usr/local/bin (requires sudo on Unix-like systems)
+sudo mv s3sync /usr/local/bin/
+
+# Method 2: Add to your PATH by copying to ~/bin (Unix-like systems)
+mkdir -p ~/bin
+cp s3sync ~/bin/
+# Then add this to your ~/.bashrc or ~/.zshrc:
+# export PATH="$HOME/bin:$PATH"
+
+# Method 3: Windows - copy to a directory in your PATH
+# Example: copy s3sync.exe C:\Windows\System32\
 ```
 
 ### Prerequisites
