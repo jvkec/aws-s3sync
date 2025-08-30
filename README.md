@@ -19,8 +19,8 @@ A simple and powerful CLI tool to synchronize local directories with AWS S3 buck
 
 ```bash
 # Clone the repository
-git clone https://github.com/jvkec/aws-s3-simple-sync.git
-cd aws-s3-simple-sync
+git clone https://github.com/jvkec/aws-s3sync.git
+cd aws-s3sync
 
 # Build the binary
 go build -o s3sync ./cmd/s3sync
@@ -339,14 +339,6 @@ go test ./internal/sync -v
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-## Contributing
-
-1. Fork the repository
-2. Create a feature branch (`git checkout -b feature/amazing-feature`)
-3. Commit your changes (`git commit -m 'Add some amazing feature'`)
-4. Push to the branch (`git push origin feature/amazing-feature`)
-5. Open a pull request
 
 ## Changelog
 

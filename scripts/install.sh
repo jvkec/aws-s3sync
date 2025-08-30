@@ -7,7 +7,7 @@ set -e
 
 # configuration
 project_name="s3sync"
-github_repo="jvkec/aws-s3-simple-sync"
+github_repo="jvkec/aws-s3sync"
 install_dir="/usr/local/bin"
 tmp_dir="/tmp/s3sync-install"
 

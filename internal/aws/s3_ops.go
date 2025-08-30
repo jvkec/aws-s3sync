@@ -13,7 +13,7 @@ import (
 	"github.com/aws/aws-sdk-go-v2/service/s3"
 	"github.com/aws/aws-sdk-go-v2/service/s3/types"
 
-	"github.com/jvkec/aws-s3-simple-sync/internal/fileutils"
+	"github.com/jvkec/aws-s3sync/internal/fileutils"
 )
 
 // bucketexists checks if a bucket exists and is accessible

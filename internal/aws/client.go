@@ -9,7 +9,7 @@ import (
 	"github.com/aws/aws-sdk-go-v2/credentials"
 	"github.com/aws/aws-sdk-go-v2/service/s3"
 
-	appConfig "github.com/jvkec/aws-s3-simple-sync/internal/config"
+	appConfig "github.com/jvkec/aws-s3sync/internal/config"
 )
 
 // client wraps the aws s3 client with configuration
