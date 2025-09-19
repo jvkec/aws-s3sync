@@ -2,6 +2,10 @@
 
 A simple and powerful CLI tool to synchronize local directories with AWS S3 buckets. s3sync provides efficient file synchronization with manifest-based change detection, supporting both one-way sync (push/pull) and individual file operations.
 
+## Why I built this
+
+I wanted a faster, simpler way to sync files with S3 and a project to learn how to build CLI tools in Go. Existing tools felt heavy or slow, so I built a single-binary solution with manifest-based detection and secure defaults.
+
 ## Features
 
 - **Efficient sync**: Manifest-based change detection using SHA256 checksums
